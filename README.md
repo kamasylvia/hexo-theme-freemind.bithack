@@ -35,7 +35,7 @@ Fixed a lot of bugs left by the original author.
 1) download theme:
 
 ``` sh
-$ git clone git@github.com:Ares-X/hexo-theme-freemind.bithack themes/freemind.bithack
+$ git clone https://github.com/kamasylvia/hexo-theme-freemind.bithack.git themes/freemind.bithack
 ```
 
 2) install [hexo-tag-bootstrap](https://github.com/wzpan/hexo-tag-bootstrap) (*optional*):
@@ -61,7 +61,7 @@ $ npm install hexo-excerpt --save
 
 freemind.bithack offers you the customized Categories, Tags and About pages. But you need to manually create these page at your 'source' folder.
 
-For example, to create a `Categories` page, you may create a `index.html` file at `source/categories/` folder with the following contents:
+For example, to create a `Categories` page, you may create a `index.md` file at `source/categories/` folder with the following contents:
 
 ```yml
 title: Categories
